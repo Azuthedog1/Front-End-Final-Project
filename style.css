@@ -5,3 +5,14 @@
 /* page 2 */
 
 /* page 3 */
+.center {
+ 	text-align: center;
+ 	padding-right:40%;
+ 	padding-left:40%;
+ }
+.body{
+	background: url(stardewValley1.jpeg);
+}
+#textBackground{
+	background-color: cornflowerblue;
+}
