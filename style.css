@@ -21,12 +21,18 @@
 /* page 3 */
 .center {
  	text-align: center;
- 	padding-right:40%;
- 	padding-left:40%;
+ 	padding-right:30%;
+ 	padding-left:30%;
  }
 .body{
-	background: url(stardewValley1.jpeg);
+	background: lightskyblue;
+	
 }
 #textBackground{
 	background-color: cornflowerblue;
+}
+.spring{
+	background:forestgreen;
+	font-size: 20px;
+	margin: 5px ;
 }
