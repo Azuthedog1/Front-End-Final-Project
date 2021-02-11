@@ -2,6 +2,20 @@
 
 /* page 1 */
 
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Varela+Round&display=swap');
+
+#blackamong{
+	width: 180px;
+	height: 180px;
+	position: absolute;
+	right: 15%;
+}
+.amongtitle{
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 50%;
+}
+
 /* page 2 */
 
 /* page 3 */
