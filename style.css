@@ -50,6 +50,7 @@
 	text-align: center;
 }
 .spring{
+	display:none;
 	background:mediumseagreen;
 	font-size: 20px;
 	margin: 5px;
@@ -79,16 +80,19 @@
 	width: 100%;
 }
 .summer{
+	display:none;
 	background:khaki;
 	font-size: 20px;
 	margin: 5px;
 }
 .fall{
+	display:none;
 	background:lightsalmon;
 	font-size: 20px;
 	margin: 5px;
 }
 .winter{
+	display:none;
 	background:cornflowerblue;
 	font-size: 20px;
 	margin: 5px;
