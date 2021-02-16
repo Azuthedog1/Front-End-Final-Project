@@ -31,6 +31,7 @@
 
 /* page 2 */
 
+
 /* page 3 */
 .center {
  	text-align: center;
@@ -39,10 +40,14 @@
  }
 .body{
 	background: lightskyblue;
+	font-family: "Comic Sans MS";
+	padding: 10px;
+	font-size:20px;
 	
 }
 .textBackground{
-	background-color: cornflowerblue;
+	
+	text-align: center;
 }
 .spring{
 	background:mediumseagreen;
@@ -58,4 +63,33 @@
 }
 .middle{
 	width: 50%;
+}
+.row:after{
+	content: "";
+  	display: table;
+  	clear: both;
+}
+.justify{
+	text-align: justify;
+}
+.biggerFont{
+	font-size: 150%;
+}
+.imgCal{
+	width: 100%;
+}
+.summer{
+	background:khaki;
+	font-size: 20px;
+	margin: 5px;
+}
+.fall{
+	background:lightsalmon;
+	font-size: 20px;
+	margin: 5px;
+}
+.winter{
+	background:cornflowerblue;
+	font-size: 20px;
+	margin: 5px;
 }

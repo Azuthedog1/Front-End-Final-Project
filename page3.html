@@ -20,6 +20,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
   <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="myscript.js"></script>
   <title>Stardew Valley - My Webpage</title>
   
   </head>
@@ -51,28 +53,122 @@
     
     <!--page content-->
 
-	
+   <div class="row">
 
-    <div class = "center">
-    <h1 class = "textBackground">Stardew Valley General Guide</h1>
-    <h2 class = "textBackground"> Basic Guide: </h2>
-    <ul>
-    	<li>The overall goal is to have fun while expanding your farm.</li>
-    	<li>There is a community center where you have to bring many differnt foods you have grown along with things you can get around the world by fishing, foraging, and mining.</li>
-    </ul>
-    <br>
-    <h2 class = "textBackground">A Guide to the Seasons</h2>
-    <br> 
-    <h2 class = "spring"> Tips and tricks about Spring</h2>
+  		<div class="column left">
+  			<p id = "springtext">CLICK TO TOGGLE SPRING CALENDER</p>
+  			<img id = "springcal" class = "imgCal" src="StardewSpringCal.png" alt="Stardew Valley Spring Calender">
+  			<p id = "summertext">CLICK TO TOGGLE SUMMER CALENDER</p>
+  			<img id = "summercal" class = "imgCal" src="StardewSummerCal.png" alt="Stardew Valley Summer Calender">
+  		</div>
+  		<div class="column middle">
+  			<h1 class = "textBackground">Stardew Valley General Guide</h1>
+    		<h2 class = "textBackground"> Basic Guide:</h2>
+    		<ul class = "justify">
+    			<li>The overall goal is to have fun while expanding your farm.</li>
+    			<li>There is a community center where you have to bring many differnt foods you have grown along with things you can get around the world by fishing, foraging, mining, and combat. These are called collections.</li>
+    			<li>There are skills that you can level up over time by completing tasks relating to the skill. Leveling up skills can help you to unloack craftinf recipes.</li>
+    			<li>Each "season" lasts 28 days</li>
+    			<li>The main currency is called "coin" and looks like a gold coin. You can sell things that you obtain to get coin and you can buy many things with them.</li>
+    		</ul>
+    		<h2 class = "textBackground">A Guide to the Seasons (click on season to toggle it)</h2>
+  		</div>
+  		<div class="column right">
+  			<p id = "falltext">CLICK TO TOGGLE FALL CALENDER</p>
+  			<img id = "fallcal" class = "imgCal" src="StardewFallCal.png" alt="Stardew Valley Fall Calender">
+  			<p id = "wintertext" >CLICK TO TOGGLE WINTER CALENDER</p>
+  			<img id = "wintercal" class = "imgCal" src="StardewWinterCal.png" alt="Stardew Valley Winter Calender">
+  		</div>
 	</div>
-    <p class = "spring"> On the first day:
-    </p>
-    <ul class = "spring"> 
-    	<li>Plant lots of beans since they take a while to grow but keep producing all season long. Save at least one for later.</li>
-    	<li>Plant lots of parsnips since they grow quickly and are cheap. You also need to save five gold tier parsnips and one normal one.</li>
-    	<li>Plant and save at least one potato.</li>
-    	<li>Plant and save at least one cauliflower.</li>
+
+ 	 <!--Spring-->
+
+ 	<h2 class = "biggerFont, center" id = "spring"> Tips and tricks about Spring</h2>
+ 	<div class = "spring">
+    <p> Farming on the first day and going forward:</p>
+    <ul> 
+    	<li>Plant lots of beans since they take a while to grow but keep producing all season long. Save at least one for collections.</li>
+    	<li>Plant lots of parsnips since they grow quickly and are cheap. You also need to save five gold tier parsnips and one normal one for collections.</li>
+    	<li>Plant and save at least one potato for collections.</li>
+    	<li>Plant and save at least one cauliflower for collections.</li>
+    	<li>If you're interesting in making the most money possible, you should plant more cauliflower, as you will get an average of 7.9 coins a day which is the most efficent plant in first year Spring. The second most profitable is beans, which gives you an average of 7.2 coins a day.</li>
     </ul>
+
+    <p>Foraging tips:</p>
+    <ul>
+    	<li>During the spring, you can find wild horseradish, daffodil, leek, dandelion, spring onion, morel, common mushroom, and salmonberry by foraging.</li>
+    	<li>You can forage almost everywhere on the map that isn't water.</li>
+    </ul>
+
+    <p>Tips for Spring fishing:</p>
+    <ul>
+    	<li>In the Ocean when it is sunny you can get anchovy, herring, sardine, flounder, and halibut. When it is raining, you can get eel. </li>
+    	<li>In Rivers when it is sunny you can get smallsmouth bass, and sunfish. When it's raining, you can get shad and catfish.</li>
+    </ul>
+	</div>
+
+ <!--Summer-->
+
+ 	<h2 class = "biggerFont, center" id = "summer"> Tips and tricks about Summer</h2>
+	<div class = "summer">
+    	<p> Farming on the first day and going forward:</p>
+    	<ul> 
+    		<li></li>
+    	</ul>
+
+    	<p>Foraging tips:</p>
+    	<ul>
+    		<li></li>
+    	</ul>
+
+    	<p>Tips for Summer fishing:</p>
+    	<ul>
+    		<li>In the Ocean when it is sunny you can get anchovy, herring, sardine, flounder, and halibut. When it is raining, you can get eel. </li>
+    		<li>In Rivers when it is sunny you can get smallsmouth bass, and sunfish. When it's raining, you can get shad and catfish.</li>
+    	</ul>
+	</div>
+
+ <!--Fall-->
+ 	<h2 class = "biggerFont, center" id = "fall"> Tips and tricks about Fall</h2>
+	<div class = "fall">
+    	<p> Farming on the first day and going forward:</p>
+    	<ul> 
+    		<li></li>
+    	</ul>
+
+    	<p>Foraging tips:</p>
+    	<ul>
+    		<li></li>
+    	</ul>
+
+    	<p>Tips for Fall fishing:</p>
+    	<ul>
+    		<li>In the Ocean when it is sunny you can get anchovy, herring, sardine, flounder, and halibut. When it is raining, you can get eel. </li>
+    		<li>In Rivers when it is sunny you can get smallsmouth bass, and sunfish. When it's raining, you can get shad and catfish.</li>
+    	</ul>
+	</div>
+
+ <!--Winter-->
+
+ 	<h2 class = "biggerFont, center" id = "winter"> Tips and tricks about Winter</h2>
+	<div class = "winter">
+    	<p> Farming on the first day and going forward:</p>
+    	<ul> 
+    		<li></li>
+    	</ul>
+
+    	<p>Foraging tips:</p>
+    	<ul>
+    		<li></li>
+    	</ul>
+
+    	<p>Tips for Winter fishing:</p>
+    	<ul>
+    		<li>In the Ocean when it is sunny you can get anchovy, herring, sardine, flounder, and halibut. When it is raining, you can get eel. </li>
+    		<li>In Rivers when it is sunny you can get smallsmouth bass, and sunfish. When it's raining, you can get shad and catfish.</li>
+    	</ul>
+	</div>
+
 
 	</div>
   </body>
