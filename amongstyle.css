@@ -1,1 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Varela+Round&display=swap');
 
+/* link to website for among us info: https://www.shacknews.com/article/120473/how-to-play-among-us */
+
+body{
+	background-image: url("amongbackground.jpg");
+}
+
+.amongtitle h1{
+	text-align: center;
+	font-family: 'Amatic SC';
+	color: white;
+	font-weight: 550;
+	font-size: 95px;
+}
+
+.amongtitle h3{
+	text-align: center;
+	font-family: 'Amatic SC';
+	color: white;
+	font-weight: 450;
+	font-size: 35px;
+}
+
+.amongtitle h5{
+	text-align: center;
+	font-family: 'Amatic SC';
+	color: white;
+	font-weight: 400;
+	font-size: 26px;
+	padding: 25px;
+}
+
+.amongtitle p{
+	position: absolute;
+	left: 60px;
+	font-family: 'Amatic SC';
+	color: white;
+	font-weight: 400;
+	font-size: 40px;
+	padding: 60px;
+}
+
+#blackamong{
+	width: 180px;
+	height: 180px;
+	position: absolute;
+	right: 15%;
+}
+
+#brownamong{
+	width: 180px;
+	height: 180px;
+	position: absolute;
+	left: 15%;
+}
+
+#crewmatescreen{
+	width: 700px;
+	height: 416px;
+	position: absolute;
+	left: 600px;
+}

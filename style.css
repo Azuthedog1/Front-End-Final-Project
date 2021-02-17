@@ -2,32 +2,7 @@
 
 /* page 1 */
 
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Varela+Round&display=swap');
-
-.amongbackimg{
-	background-image: url("amongbackground.jpg");
-}
-
-.amongtitle{
-	text-align: center;
-	font-family: 'Amatic SC';
-	font-size: 50%;
-}
-
-#blackamong{
-	width: 180px;
-	height: 180px;
-	position: absolute;
-	right: 15%;
-}
-
-#brownamong{
-	width: 180px;
-	height: 180px;
-	position: absolute;
-	left: 15%;
-}
-
+/* created among style.css */
 
 /* page 2 */
 
