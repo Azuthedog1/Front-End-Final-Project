@@ -19,8 +19,12 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-  <link rel="stylesheet" href="amongstyle.css">
-  <title>Among Us</title>
+	<!-- added separte stylesheet for specific webpage -->
+  	<link rel="stylesheet" href="amongstyle.css">
+  	
+  	<!-- javascript link specific to this webpage -->
+  	<script src="amongscript.js"></script>
+  	<title>Among Us</title>
   
   </head>
   <body>
@@ -50,23 +54,35 @@
     <!--page content-->
 
    	 	<div class="amongtitle">
-    		<h1>Among Us</h1>
+    		<h1 id="fadeclick">Among Us</h1>
+    			<h6>(click on Among Us title to fadeToggle)</h6>
     			<h3>A guide for beginners and tips & tricks</h3>
-    		
     				<img id="blackamong" src="blackamong.png" alt="black Among Us character">
     				<img id="brownamong" src="brownamong.png" alt="brown Among Us character">
     		<br>
     			<h5>Play with 4-10 players and go on a spaceship together as a crew but beware as one <br> or more random players among the Crew are Impostors bent on killing everyone! <br> Crewmates don't know who imposters are and imposters try to kill everyone without <br> being caught. Crewmates and imposters can sway other crewmates to vote people <br> out during meetings if they are suspicious enough.</h5>
     		<br>
     			<p>How to win as crewmate:<p>
+    				<h6>(click on Crewmate Screen image to show how to win list)</h6>
     				<img id="crewmatescreen" src="Crewmate.png" alt="Among Us Crewmate screen">
-    				<ul>
-  						<li>Coffee</li>
-  						<li>Tea</li>
-  						<li>Milk</li>
-					</ul>  
+    				<ul id="texttoggle">
+  						<li>complete tasks</li>
+  						<li>Report any suspicious crewmates</li>
+  						<li>Always try to fix sabotages</li>
+					</ul> 
+				<br>
+			<h6 id="clicktext">(click on Imposter Screen image to show how to win list)</h6>
+			<img id="imposterscreen" src="Impostor.png" alt="Among Us Imposter screen">
 		</div>
-	<!--the end of class="amongtitle"-->
+		<!--the end of class="amongtitle"-->
+		<p id="howtext">How to win as Imposter:<p> <!-- had to create id in order to edit text differently -->
+					<ul id="texttoggle2">
+  						<li>Sabotage tasks</li>
+  						<li>kill as many crewmates as you can without getting caught</li>
+  						<li>Fake tasks</li>
+  						<li>Lie during meetings</li>
+  						<li>Don't look suspicious</li>
+					</ul> 
   </body>
 </html>
 

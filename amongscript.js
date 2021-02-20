@@ -1,15 +1,12 @@
-$(document).ready(function() {
-	$("h1").click(function() {
-		$("p").css({"color":"red", "background-color": "yellow"});
-		$("img").css("border","25px solid black");
-	});
-	$("#imagetoggler").click(function(){
-		$("img").toggle();
-	});
-	$("#p1").click(function(){
-		$(".disappear").hide();
-	});
-	$("#p1").dblclick(function(){
-		$(".disappear").show();
-	});
+$(document).ready(function(){
+  $("#crewmatescreen").click(function(){
+    $("#texttoggle").toggle();
+  });
+   $("#imposterscreen").click(function(){
+    $("#texttoggle2").toggle();
+  });
+  $("#fadeclick").click(function(){
+    $("#blackamong").fadeToggle();
+    $("#brownamong").fadeToggle();
+  });
 });

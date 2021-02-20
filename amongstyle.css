@@ -41,11 +41,66 @@ body{
 	padding: 60px;
 }
 
+.amongtitle h6{
+	position: absolute;
+	right: 250px;
+	font-family: 'Amatic SC';
+	color: gray;
+	font-weight: 400;
+	font-size: 21px;
+	padding: 5px;
+	margin: -15px;
+}
+
+#clicktext{
+	font-family: 'Amatic SC';
+	color: gray;
+	font-weight: 400;
+	font-size: 21px;
+	position: absolute;
+  	bottom: -420px;
+  	left: 90px;
+}
+
+#howtext{
+	font-family: 'Amatic SC';
+	color: white;
+	font-weight: 400;
+	font-size: 40px;
+	position: absolute;
+  	bottom: -420px;
+  	left: 750px;
+}
+
+.amongtitle ul{
+	position: absolute;
+	left: 60px;
+	font-family: 'Amatic SC';
+	color: white;
+	font-weight: 400;
+	font-size: 25px;
+	padding: 125px;
+	display: none;
+}
+
+#texttoggle2{
+	position: absolute;
+	bottom: -780px;
+	left: 720px;
+	font-family: 'Amatic SC';
+	color: white;
+	font-weight: 400;
+	font-size: 25px;
+	padding: 125px;
+	display: none;
+}
+
 #blackamong{
 	width: 180px;
 	height: 180px;
 	position: absolute;
 	right: 15%;
+	display: none;
 }
 
 #brownamong{
@@ -53,6 +108,7 @@ body{
 	height: 180px;
 	position: absolute;
 	left: 15%;
+	display: none;
 }
 
 #crewmatescreen{
@@ -60,4 +116,13 @@ body{
 	height: 416px;
 	position: absolute;
 	left: 600px;
+	padding: 20px;
+}
+
+#imposterscreen{
+	width: 700px;
+	height: 416px;
+	position: absolute;
+  	bottom: -850px;
+  	left: 16px;
 }
