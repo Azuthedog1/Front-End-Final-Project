@@ -1,7 +1,15 @@
 $(document).ready(function() {
-	
+	//main page
+
+
+	//page 1
+
+
+	//page2
+
 
 	//page 3
+	//toggle calenders
 	$("#springtext").click(function(){
 		$("#springcal").toggle();
 		});
@@ -15,6 +23,7 @@ $(document).ready(function() {
 		$("#wintercal").toggle();
 		});
 
+	//toggle seasons
 	$("#spring").click(function(){
 		$(".spring").toggle();
 		});
