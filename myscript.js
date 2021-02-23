@@ -9,31 +9,37 @@ $(document).ready(function() {
 
 
 	//page 3
+	$(".imgCal").slideDown("slow");
+
 	//toggle calenders
 	$("#springtext").click(function(){
-		$("#springcal").toggle();
+		$("#springcal").slideToggle();
 		});
 	$("#summertext").click(function(){
-		$("#summercal").toggle();
+		$("#summercal").slideToggle();
 		});
 	$("#falltext").click(function(){
-		$("#fallcal").toggle();
+		$("#fallcal").slideToggle();
 		});
 	$("#wintertext").click(function(){
-		$("#wintercal").toggle();
+		$("#wintercal").slideToggle();
 		});
 
 	//toggle seasons
 	$("#spring").click(function(){
-		$(".spring").toggle();
+		$(".spring").slideToggle();
 		});
 	$("#summer").click(function(){
-		$(".summer").toggle();
+		$(".summer").slideToggle();
 		});
 	$("#fall").click(function(){
-		$(".fall").toggle();
+		$(".fall").slideToggle();
 		});
 	$("#winter").click(function(){
-		$(".winter").toggle();
+		$(".winter").slideToggle();
 		});
+
+	$(".imgCal").click(function(){
+		alert("Are you sure you want to go to this page?")
+	})
 });
